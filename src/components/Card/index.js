@@ -40,8 +40,7 @@ const renderCategoryTheme = (type) => {
 }
 
 const Card = props => {
-    return (
-        
+    return ( 
         <CardStyle bought={props.data.bought && props.data.bought.toString()}>
             <View style={{display: "flex", flexDirection: "row", alignItems: "center"}}>
                 <FabButton size="30px" style={{marginRight: 10, ...renderCategoryTheme(props.data.category)}}>

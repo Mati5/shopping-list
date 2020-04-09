@@ -2,12 +2,9 @@ import React from 'react';
 import { TouchableOpacity } from 'react-native';
 import Icon from 'react-native-vector-icons/dist/MaterialCommunityIcons';
 
-
 import { ToolbarStyle } from './style';
 
 const Toolbar = (props) => {
-    const [value, onChangeText] = React.useState('Useless Placeholder');
-
     return (
         <ToolbarStyle>
             <ToolbarStyle.Row>

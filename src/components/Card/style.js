@@ -2,8 +2,10 @@ import styled from 'styled-components';
 import { View, Text, TouchableOpacity } from 'react-native';
 
 const CardStyle = styled(View)`
-    padding: 5px 10px;
-
+    padding: 8px 10px;
+    border-style: solid;
+    border-bottom-width: 1px;
+    border-color: #f1f1f1;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
